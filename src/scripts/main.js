@@ -24,5 +24,5 @@ const errorMessage = () => {
   document.body.appendChild(elementDiv);
 };
 
-promise1.then(succesMessage);
-promise2.catch(errorMessage);
+promise1.then(succesMessage).catch(errorMessage);
+promise2.then(succesMessage).catch(errorMessage);
